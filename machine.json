@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "sdk": "1.5",
+  "kind": "synth",
+  "description": "Test machine: a triangle LFO on one knob of another track. Silent; not unique.",
+  "identity": {
+    "engine": 36,
+    "page": 84
+  }
+}

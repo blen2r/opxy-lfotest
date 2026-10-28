@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "id": "lfotest",
+  "name": "LFO Test",
+  "parameters": [
+    {
+      "id": "track",
+      "label": "Track",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "t1",
+          "t2",
+          "t3",
+          "t4",
+          "t5",
+          "t6",
+          "t7",
+          "t8"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "knob",
+      "label": "Knob",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "k1",
+          "k2",
+          "k3",
+          "k4",
+          "k5",
+          "k6",
+          "k7",
+          "k8"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "rate",
+      "label": "Rate",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "0.25hz",
+          "0.5hz",
+          "1hz",
+          "2hz",
+          "4hz",
+          "8hz"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "depth",
+      "label": "Depth",
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    }
+  ],
+  "presets": {},
+  "resources": {
+    "voiceBytes": 4,
+    "voiceAlignment": 4,
+    "voiceCapacity": 8,
+    "sharedBytes": 0,
+    "outputPeakQ31": 1073741824,
+    "display": {
+      "stateBytes": 4,
+      "stateAlignment": 4,
+      "paths": 2,
+      "points": 64,
+      "nodes": 2,
+      "texts": 0,
+      "palette": 16
+    },
+    "trackControl": {
+      "stateBytes": 4,
+      "stateAlignment": 4,
+      "marks": {
+        "capture": 1,
+        "line": 1
+      }
+    }
+  }
+}
